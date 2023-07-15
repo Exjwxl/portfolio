@@ -1,2 +1,6 @@
-let name =document.getElementById("name");
 
+
+function more(){
+    document.getElementById("aboutME").style.display = "block";
+    
+}

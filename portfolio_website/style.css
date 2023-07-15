@@ -1,4 +1,39 @@
 body{
-    background-color: black;
+    background-color: rgb(46, 72, 86);
     color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+#name{
+    color: black;
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    background-color: #77aac0;
+    padding: 5%;
+    height: 40vh;
+}
+footer{
+    background-color: #b71717;
+    text-align: center;
+    padding: 0 10%;
+}
+.card1{
+    border:.3rem solid rgba(90, 100, 110);
+    color: blueviolet;
+}
+.btn{
+    height: 6vh;
+    border-radius: 10px;
+    border:none;
+    background-color: #4585a1;
+    font-weight: 300;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.482);
+}
+#aboutME{
+    display: none;
+    padding: 5%;
 }
